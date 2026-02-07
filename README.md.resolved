@@ -1,0 +1,49 @@
+# 🌱 PhytoScout: Integrated Plant Science Platform
+
+**PhytoScout** is a conceptual "Super-App" designed to demonstrate the intersection of Data Science and Advanced Plant Genetics. It specifically targets research themes from the lab of **Prof. Mark Aarts (Wageningen University & Research)**.
+
+## 🚀 Features
+
+### 1. 🧲 Phytoremediation Tracker
+*   **Goal:** Track the cleanup of heavy metal (Zinc) contaminated soil.
+*   **Science:** Modeled on *Noccaea caerulescens* uptake curves and *ZIP* transporter kinetics.
+*   **Usage:** Input soil PPM and growth duration to see projected remediation.
+
+### 2. 📸 Biomass Predictor (NPEC-Lite)
+*   **Goal:** Estimate plant biomass from top-down images without destructive harvesting.
+*   **Science:** Utilizes "Greenness Index" (excess green chromatic coordinates) as a proxy for canopy cover and photosynthesis potential.
+*   **Usage:** Upload a plant photo to calculate biomass and projected yield.
+
+### 3. 🩺 Deficiency Detective
+*   **Goal:** Identify "Hidden Hunger" (Micronutrient Deficiency) early.
+*   **Science:** Decision logic based on phloem mobility of elements (Zn, Fe vs. N, Mg).
+*   **Usage:** Select visual symptoms to receive a probable diagnosis.
+
+## 🛠️ Installation & Local Run
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/PhytoScout.git
+    cd PhytoScout
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the app:**
+    ```bash
+    streamlit run app.py
+    ```
+
+## ☁️ Deployment
+
+This app is ready for **Streamlit Community Cloud**.
+
+1.  Push this code to your GitHub.
+2.  Go to [share.streamlit.io](https://share.streamlit.io).
+3.  Select the repo and set the main file to [app.py](file:///C:/Users/HP/.gemini/antigravity/brain/230d9ed2-ebdc-49c6-85df-bc4fc210eb0d/PhytoScout/app.py).
+
+---
+*Built as a portfolio prototype.*
