@@ -4,6 +4,13 @@ def render():
     st.header("🩺 Deficiency Detective")
     st.markdown("Identify 'Hidden Hunger' (Micronutrient Deficiency) based on visual symptoms.")
     
+    with st.expander("🧬 Genetics of Nutrient Uptake"):
+        st.info("""
+        **Diagnostic Enhancement:** We are integrating genomic data to correlate nutrient deficiency patterns with genetic variations in transport genes (e.g., **IRT1** for Iron, **HMA4** for Zinc).
+        
+        **Insight:** Plants with specific genetic variations in these transporters may show more pronounced symptoms. This tool aims to identify not just the *symptom* (phenotype), but the *genetic predisposition* (genotype) behind it.
+        """)
+    
     st.subheader("Visual Symptom Checker")
     
     location = st.selectbox("Where are the symptoms located?", 
