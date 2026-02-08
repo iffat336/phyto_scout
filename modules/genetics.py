@@ -9,6 +9,11 @@ def render():
     Explore the genetic basis of metal hyperaccumulation in *Noccaea caerulescens*. 
     
     **Scientific Focus:** This module demonstrates the correlation between **Gene Copy Number Variation (CNV)** and **Zinc Tolerance**, a key research area of Prof. Mark Aarts.
+    
+    > [!NOTE]
+    > **Mechanism of Adaptation:**
+    > *Noccaea* has evolved to tolerate toxic soil not by inventing new genes, but by **duplicating** existing ones.
+    > Specifically, the **Heavy Metal ATPase 4 (HMA4)** gene is often found in multiple copies. This "brute force" overexpression allows the plant to pump Zinc from roots to shoots, storing it safely in the vacuole.
     """)
     
     st.subheader("Population Analysis: Gene Dosage Effect")
@@ -72,9 +77,11 @@ def render():
     st.divider()
     
     st.markdown("""
-    ### 🔬 Evolutionary Insight
+    ### 🔬 Evolutionary Pathway: From Mutation to Adaptation
     
-    In *Noccaea caerulescens*, evolution has selected for these **gene duplications**. 
+    1.  **Duplication Event:** A random error in DNA replication creates a second copy of *HMA4*.
+    2.  **Selection Pressure:** In toxic soil, plants with 2 copies pump metal faster and survive.
+    3.  **Fixation:** Over generations, this Copy Number Variation (CNV) becomes fixed in the population.
     
-    While *Arabidopsis thaliana* might have 1 or 2 copies of *HMA4*, *Noccaea* can have many more. This "brute force" overexpression allows it to survive on metalliferous soils where other plants die.
+    This is why *Noccaea caerulescens* is a hyperaccumulator, while its cousin *Arabidopsis thaliana* is not.
     """)
