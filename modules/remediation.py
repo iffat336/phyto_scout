@@ -6,6 +6,15 @@ def render():
     st.header("🌱 Phytoremediation Tracker")
     st.markdown("Monitor the removal of heavy metals (Zinc) from contaminated soil using *Noccaea caerulescens*.")
     
+    with st.expander("🧬 Genetic Mechanism: How does it work?"):
+        st.info("""
+        **Genomic Driver:** The hyperaccumulation trait in *Noccaea caerulescens* is driven by genomic variations in the **HMA4** gene. 
+        
+        **Mechanism:** These genetic variations, specifically **Copy Number Variations (CNV)**, enable the plant to pump zinc from roots to shoots at high rates. 
+        
+        *By integrating this genomic data, we can predict how specific genetic markers contribute to faster or more efficient soil remediation.*
+        """)
+    
     col1, col2 = st.columns(2)
     
     with col1:
