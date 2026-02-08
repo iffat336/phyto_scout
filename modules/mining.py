@@ -8,6 +8,15 @@ def render():
     **Scientific Focus:** Connecting *biomass yield* and *metal accumulation* to real-world market value—demonstrating the "Impact" side of **Botanickel's** mission.
     """)
     
+    with st.expander("🧬 Genetic Optimization for Profit"):
+        st.info("""
+        **Strategy:** To maximize revenue, farmers should select plant varieties with **optimized HMA4 copy numbers**. 
+        
+        **Why?** Plants with higher copy numbers are more efficient at translocating metal to the leaves (the harvestable part). 
+        
+        *By correlating genetic data with metal concentrations, we can breed 'Elite Bio-ore Cultivars' for specific metalliferous soils.*
+        """)
+    
     st.divider()
     
     col1, col2 = st.columns(2)
