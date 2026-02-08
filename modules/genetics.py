@@ -12,8 +12,12 @@ def render():
     
     > [!NOTE]
     > **Mechanism of Adaptation:**
-    > *Noccaea* has evolved to tolerate toxic soil not by inventing new genes, but by **duplicating** existing ones.
-    > Specifically, the **Heavy Metal ATPase 4 (HMA4)** gene is often found in multiple copies. This "brute force" overexpression allows the plant to pump Zinc from roots to shoots, storing it safely in the vacuole.
+    > *Noccaea* has evolved to tolerate toxic soil not by inventing new genes, but by **duplicating** existing ones (Copy Number Variation).
+    >
+    > *   **Gene:** **Heavy Metal ATPase 4 (HMA4)**.
+    > *   **Action:** Acts as a pump to move Zinc from roots to shoots.
+    > *   **Expression:** High copy numbers lead to **transcriptional overexpression** (more mRNA -> more protein pumps).
+    > *   **Outcome:** Massive removal of Zinc from roots preventing toxicity, allowing the plant to thrive.
     """)
     
     st.subheader("Population Analysis: Gene Dosage Effect")
