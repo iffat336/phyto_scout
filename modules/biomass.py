@@ -6,6 +6,13 @@ def render():
     st.header("📸 Biomass Predictor (NPEC-Lite)")
     st.markdown("Estimate plant biomass from top-down photos using Computer Vision (Greenness Index).")
     
+    with st.expander("🧬 Integrating Genetics & Phenomics"):
+        st.info("""
+        **Future Enhancement:** In addition to predicting biomass based on visual input, we aim to incorporate **genetic markers** related to growth traits such as **chlorophyll content**, **root development**, and **stress tolerance**.
+        
+        **Goal:** By linking phenotypic data (e.g., leaf area) with genomic information, we can create a more accurate prediction of plant health, especially under conditions of **drought or nutrient stress**—a core focus of the Aarts lab.
+        """)
+    
     uploaded_file = st.file_uploader("Upload a top-down photo of the plant", type=["jpg", "png", "jpeg"])
     
     if uploaded_file is not None:
